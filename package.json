@@ -1,6 +1,6 @@
 {
   "name": "iap",
-  "version": "1.1.1",
+  "version": "1.2.2",
   "description": "In-app purchase validation for Apple, Google, Amazon, Roku",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wizcorp/node-iap"
+    "url": "https://github.com/FireKamp/node-iap.git"
   },
   "keywords": [
     "iap",
@@ -21,15 +21,15 @@
     "purchase",
     "itunes"
   ],
-  "author": "Ron Korving <rkorving@wizcorp.jp>",
+  "author": "Alishan Bhayani <alishanbhayani@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "jwt-simple": "0.5.6",
-    "minimist": "0.0.8"
+    "minimist": "1.2.5"
   },
   "devDependencies": {
-    "eslint": "6.8.0",
-    "husky": "3.0.2"
+    "eslint": "7.4.0",
+    "husky": "4.2.5"
   },
   "husky": {
     "hooks": {
